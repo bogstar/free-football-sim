@@ -1,0 +1,215 @@
+
+@import "../main-layout.css";
+
+article input[type="text"] {
+    width: 100%;
+}
+
+.selector-container {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    width: 500px;
+    text-align: center;
+}
+
+.selector {
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.selector.gk {
+    background-color: green;
+}
+
+.selector.def {
+    background-color: blue;
+}
+
+.selector.mid {
+    background-color: yellow;
+}
+
+.selector.att {
+    background-color: red;
+}
+
+.drop {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: gray;
+    text-align: left;
+    margin: 0 0 5px 0; 
+}
+
+.drop.gk {
+    display: block;
+}
+
+.drop.def {
+    display: block;
+}
+
+.drop.mid {
+    display: block;
+}
+
+.drop.att {
+    display: block;
+}
+
+.drop input[type="text"] {
+    width: 100%;
+}
+
+.team-logo img {
+    width: 100%;
+}
+
+.team-name {
+    text-align: center;
+    font-size: 30px;
+}
+
+.stats h1 {
+    display: inline;
+}
+
+.stats {
+    margin-top: 25px;
+}
+
+aside {
+    margin-top: 75px;
+}
+
+#footbal-field {
+    background: url(../..//design_resources/img/field.png);
+    background-size: 100%;
+}
+
+.field {
+    margin-top: 22px;
+    margin-left: 112px;
+}
+
+.bracket {
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid black;
+    width: 1000px;
+    height: 400px;
+}
+
+.bracket #bracket {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.livefeed {
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid black;
+    width: 500px;
+    height: 495px;
+    background-color: lightsalmon;
+}
+
+.wrapper {
+    padding-top: 20px;
+}
+
+#trening {
+    float: left;
+    height: 100%;
+    width: 50%;
+    background-color: lightblue;
+}
+
+#bracket-canvas {
+    background: url(../../design_resources/img/breket.png);
+    background-size: 100%;
+    background-color: pink;
+}
+
+.tezina {
+    width: 96%;
+    margin-bottom: 20px;
+}
+
+.igra-container {
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    width: 1000px;
+    height: 768px;
+    border: 1px solid black;
+}
+
+.igra-container .pentagram {
+    width: 400px;
+}
+
+.igra-container .upute {
+    margin: 20px auto;
+    font-size: 20px;
+    width: 500px;
+}
+
+.putactadin {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.about-putac {
+    margin-left: 370px;
+}
+
+.putactadin > a {
+    display: flex;
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 40px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    transition: 300ms ease;
+    width: 200px;
+}
+
+.putactadin > input[type="submit"] {
+    display: flex;
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 40px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    transition: 300ms ease;
+    width: 200px;
+}
+
+.putactadin > a:hover {
+    font-size: 60px;
+    transition: 300ms ease;
+}
+
+.putactadin > input[type="submit"]:hover {
+    cursor: pointer;
+    font-size: 60px;
+    transition: 300ms ease;
+}
+
+.putactadin > a:visited {
+    color: white;
+}
+
+.putactadin > input[type="submit"]:visited {
+    color: white;
+}

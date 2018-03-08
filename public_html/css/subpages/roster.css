@@ -1,0 +1,95 @@
+
+@import "../main-layout.css";
+
+/****************************/
+/* Header                   */
+/****************************/
+
+.wrapper > .central-element > aside > .logo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.wrapper > .central-element > aside > .logo {
+    margin-bottom: 20px;
+}
+
+.wrapper > .central-element > aside > .logo > a > img {
+    width: 100%;
+}
+
+/****************************/
+/* Articles                 */
+/****************************/
+
+article {
+    margin-bottom: 25px;
+    background-color: activecaption;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+article:last-child {
+    margin-bottom: 0;
+}
+
+.wrapper > .central-element > .main-content > article > * {
+    word-wrap: break-word;
+    text-align: center;
+    padding: 5px;
+}
+
+.top-div {
+    overflow: hidden;
+}
+
+.team-name h1 {
+    font-size: 35px;
+}
+
+.team-logo {
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+
+.team-logo img {
+    height: 100%;
+}
+
+.team-name {
+    -webkit-display: flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    height: 150px;
+    overflow: hidden;
+}
+
+.bottom-div > table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.bottom-div > table td, .bottom-div > table {
+    font-size: 19px;
+}
+
+.bottom-div > table td {
+    padding: 5px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.bottom-div > table .table-key {
+    width: 150px;
+    font-weight: bold;
+}
+
+.bottom-div > table .table-value, .team-name {
+    padding-left: 12.5%;
+    padding-right: 7%;
+}

@@ -1,0 +1,233 @@
+
+@import "../main-layout.css";
+
+/****************************/
+/* Header                   */
+/****************************/
+
+.wrapper > .central-element > aside > .logo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.wrapper > .central-element > aside > .logo {
+    margin-bottom: 20px;
+}
+
+.wrapper > .central-element > aside > .logo > a > img {
+    width: 100%;
+}
+
+.main-content .about {
+    text-align: center;
+    font-size: 100px;
+}
+
+.igra-container {
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    width: 1000px;
+    height: 768px;
+    border: 1px solid black;
+}
+
+.pregled-tima {
+    height: 1000px;
+}
+
+.igra-container .pentagram {
+    width: 400px;
+}
+
+.igra-container .upute {
+    margin: 20px auto;
+    font-size: 20px;
+    width: 500px;
+}
+
+.putactadin {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.about-putac {
+    margin-left: 370px;
+}
+
+.dodajtimtadin {
+    margin-left: 370px;
+}
+
+.putactadin > a {
+    display: flex;
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 40px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    transition: 300ms ease;
+    width: 200px;
+}
+
+.gameovertadin > a {
+    width: 400px;
+}
+
+.gameovertadin {
+    margin: 100px 40%;
+}
+
+.putactadin > input[type="submit"] {
+    display: flex;
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 40px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    transition: 300ms ease;
+    width: 200px;
+}
+
+.putactadin > a:hover {
+    font-size: 60px;
+    transition: 300ms ease;
+}
+
+.putactadin > input[type="submit"]:hover {
+    cursor: pointer;
+    font-size: 60px;
+    transition: 300ms ease;
+}
+
+.putactadin > a:visited {
+    color: white;
+}
+
+.putactadin > input[type="submit"]:visited {
+    color: white;
+}
+
+.igra-container article .unos-tima {
+    font-size: 30px;
+}
+
+.igra-container article .unos-tima table {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.igra-container article .unos-tima table input[type="text"] {
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+}
+
+.igra-container article .unos-tima table {
+    text-align: left;
+}
+
+.igra-container article .unos-tima input[type="submit"] {
+    margin-top: 20px;
+}
+
+.table-key {
+    width: 100px;
+}
+
+.selector-container {
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 30px;
+    width: 500px;
+    text-align: center;
+}
+
+.selector {
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.selector.gk {
+    background-color: green;
+}
+
+.selector.def {
+    background-color: blue;
+}
+
+.selector.mid {
+    background-color: yellow;
+}
+
+.selector.att {
+    background-color: red;
+}
+
+.drop {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: gray;
+    text-align: left;
+    margin: 0 0 5px 0; 
+}
+
+.drop.gk {
+    display: none;
+}
+
+.drop.def {
+    display: none;
+}
+
+.drop.mid {
+    display: none;
+}
+
+.drop.att {
+    display: none;
+}
+
+.drop input[type="text"] {
+    width: 100%;
+}
+
+.gameover {
+    background-color: black;
+}
+
+@font-face {
+    font-family: Comic Sans;
+    src: url(../../design_resources/fonts/comicbd.ttf);
+}
+
+.gameoverfont {
+    color: white;
+    font-family: Comic Sans;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 200px;
+}
+
+.victory {
+    background-color: white;
+}
+
+.victoryfont {
+    color: black;
+    font-family: Comic Sans;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 200px;
+}
+
+.mvp {
+    text-align: center;
+}

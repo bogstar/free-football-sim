@@ -1,0 +1,37 @@
+
+@import "../main-layout.css";
+
+/****************************/
+/* Header                   */
+/****************************/
+
+.wrapper > header > .logo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.wrapper > header > .logo > img {
+    width: 75%;
+}
+
+/****************************/
+/* Articles                 */
+/****************************/
+
+.wrapper > .central-element > .main-content > article {
+    margin-bottom: 20px;
+}
+
+.wrapper > .central-element > .main-content > article:last-child {
+    margin: 0;
+}
+
+.wrapper > .central-element > .main-content > article > .title {
+    margin-bottom: 5px;
+}
+
+.wrapper > .central-element > .main-content > article > footer {
+    text-align: right;
+    color: lightslategray;
+    font-style: italic;
+}
