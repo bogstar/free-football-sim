@@ -1,0 +1,1 @@
+<h1><a href="igra_pravila.php" onmouseover="mouseOverIgraj.playclip()">IGRAJ</a></h1>
