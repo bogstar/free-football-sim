@@ -1,3 +1,9 @@
+# free-football-sim
+
+A PHP/HTML/CSS/MySQL project attempting to create a web-app - game; a football manager.
+
+Below is the original Readme.md (in Croatian) used while developing the web-app.
+
 # PROČITAJ ME #
 
 Ovaj PROČITAJ ME sadrži sve informacije o projektu i kako ćemo ga razraditi.
